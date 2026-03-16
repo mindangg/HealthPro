@@ -1,0 +1,8 @@
+GET http://localhost:4004/api/v3/schedule/clinic-specialty/available-dates/a50e8400-e29b-41d4-a716-446655440024
+Content-Type: application/json
+
+{
+  "patientId": "750e8400-e29b-41d4-a716-446655440028",
+  "doctorId": "750e8400-e29b-41d4-a716-446655440013",
+  "clinicSpecialtyId": null
+}

@@ -1,0 +1,12 @@
+POST http://localhost:4004/api/v3/doctor-schedule-template
+Content-Type: application/json
+
+{
+  "dayOfWeek": [
+    "MONDAY", "TUESDAY", "WEDNESDAY","THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"
+  ],
+  "fromTime": "08:00",
+  "toTime": "12:00",
+  "slotDuration": 20
+}
+###
